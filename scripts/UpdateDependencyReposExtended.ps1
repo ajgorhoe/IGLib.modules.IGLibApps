@@ -1,6 +1,6 @@
 
-# Clones or updates the dependency repositories for IGLibCore.
-Write-Host "`n`nCloning / updating EXTENDED dependency repositories of IGLibCore ..."
+# Clones or updates the dependency repositories for IGLibApps.
+Write-Host "`n`nCloning / updating EXTENDED dependency repositories of IGLibApps ..."
 
 # Get the script directory such that relative paths can be resolved:
 $scriptPath = $MyInvocation.MyCommand.Path
@@ -12,14 +12,14 @@ Write-Host "Script directory: $scriptDir"
 # First, call basic update script:
 & $(join-path $scriptDir "UpdateDependencyRepos.ps1")
 
-Write-Host "`nUpdating extended dependencies of IGLibCore:`n"
+Write-Host "`nUpdating extended dependencies of IGLibApps:`n"
 
-Write-Host "Nothing to do in the extended depenndencies section.`n"
-
-# Already in the basic update script (UpdateDependencyRepos):
-# Write-Host "`nUpdating IGLibScripts:"
-# & $(Join-Path $scriptDir "UpdateRepo_IGLibScripts.ps1")
+Write-Host "Nothing to do in the extended dependencies section.`n"
 
 
-Write-Host "  ... updating IGLibCore EXTENDED dependencies complete.`n`n"
+# write-host "`nupdating MathNetNumerics:"
+# & $(join-path $scriptdir "UpdateRepoExternal_MathNetNumerics.ps1")
+
+
+Write-Host "  ... updating IGLibApps EXTENDED dependencies complete.`n`n"
 
