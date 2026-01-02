@@ -2,11 +2,10 @@
 
 	<PropertyGroup>
 		<!--
-		This project should normally be build for all relevant platforms: the newest stable
-		.NET 8 or later; legacy .NET Framework 4.8; .NET Standard 2.0 for really wide compatibility.
-		<TargetFrameworks>net10.0;net8.0;net48;netstandard2.0</TargetFrameworks>
+		REMOVED .NET Framework 4.8 (net48) - IGLibScriptingCs is not compatible.
+		<TargetFrameworks>net10.0-windows;net8.0-windows</TargetFrameworks>
 		-->
-		<TargetFrameworks>net10.0-windows;net8.0-windows;net48</TargetFrameworks>
+		<TargetFrameworks>net10.0-windows;net8.0-windows</TargetFrameworks>
 		<Nullable>enable</Nullable>
 		<OutputType>Exe</OutputType>
 		<UseWindowsForms>true</UseWindowsForms>
@@ -28,8 +27,8 @@
 	
 	<PropertyGroup>
 		<!-- This group contains attributes previously in AsemblyInfo.cs. -->
-		<AssemblyName>IGLibShellWin</AssemblyName>
-		<PackageId>IGLib.ShellWin</PackageId>
+		<AssemblyName>IGLibShellWinExt</AssemblyName>
+		<PackageId>IGLib.ShellWinExt</PackageId>
 		<!-- Versioning is handled with GitVersion (attributes: Version, AssemblyVersion, FileVersion). -->
 		<Authors>Igor Grešovnik</Authors>
 		<Company>none</Company>
@@ -38,7 +37,7 @@
 		<Description>Contains various useful tools and demonstration utilities (e.g. 3D plotting) that can be run via command-line interpreter.
 		In order to run a built-in utilities, just pass command name and its arguments via command-line arguments.
 		To enter interactive mode, run the following:
-		  IGLibShellWin Interactive
+		  IGLibShellWinExt Interactive
 		This can be followed by another command with arguments, which will be run before entering the interactive mode.
 		</Description>
 		<RepositoryUrl>https://github.com/ajgorhoe/IGLib.modules.IGLibApps/</RepositoryUrl>
@@ -67,7 +66,7 @@
 		To prevent this reference to appear in NuGet package of this project:
 		  PrivateAssets="All"
 		ReferenceOutputAssembly="false" PrivateAssets="All"   -->
-		<ProjectReference Include="..\..\src\0InitModules\InitModulesApps\InitModulesApps.csproj" ReferenceOutputAssembly="false" PrivateAssets="All" />
+		<ProjectReference Include="..\..\src\0InitModules\InitModulesAppsExtended\InitModulesAppsExtended.csproj" ReferenceOutputAssembly="false" PrivateAssets="All" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -80,9 +79,8 @@
 		<ProjectReference Include="..\..\..\IGLibGraphics3D\src\IGLib.Graphics3D\IGLib.Graphics3D.csproj" />
 		<!--
 		Not compatible with .NET 4.8:
-		<ProjectReference Include="..\..\..\IGLibScriptingCs\src\IGLib.ScriptingCs\IGLib.ScriptingCs.csproj" />
 		-->
-		
+		<ProjectReference Include="..\..\..\IGLibScriptingCs\src\IGLib.ScriptingCs\IGLib.ScriptingCs.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
