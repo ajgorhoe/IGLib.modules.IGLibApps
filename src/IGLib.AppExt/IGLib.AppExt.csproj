@@ -7,7 +7,7 @@
 		-->
 		<TargetFrameworks>net10.0-windows;net8.0-windows</TargetFrameworks>
 		<Nullable>enable</Nullable>
-		<OutputType>Exe</OutputType>
+		<OutputType>Library</OutputType>
 		<UseWindowsForms>true</UseWindowsForms>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<LangVersion>latest</LangVersion>
@@ -27,19 +27,14 @@
 	
 	<PropertyGroup>
 		<!-- This group contains attributes previously in AsemblyInfo.cs. -->
-		<AssemblyName>IGLibShellWinExt</AssemblyName>
-		<PackageId>IGLib.ShellWinExt</PackageId>
+		<AssemblyName>IGLib.AppExt</AssemblyName>
+		<PackageId>IGLib.AppExt</PackageId>
 		<!-- Versioning is handled with GitVersion (attributes: Version, AssemblyVersion, FileVersion). -->
 		<Authors>Igor Grešovnik</Authors>
 		<Company>none</Company>
-		<ProductName>IGLib Shell for Windows</ProductName>
-		<Product>Investigative Generic Library (IGLib) - Shell application for Windows</Product>
-		<Description>Contains various useful tools and demonstration utilities (e.g. 3D plotting) that can be run via command-line interpreter.
-		In order to run a built-in utilities, just pass command name and its arguments via command-line arguments.
-		To enter interactive mode, run the following:
-		  IGLibShellWinExt Interactive
-		This can be followed by another command with arguments, which will be run before entering the interactive mode.
-		</Description>
+		<ProductName>Library IGLib.AppExt</ProductName>
+		<Product>Investigative Generic Library (IGLib) - library IG.AppExt</Product>
+		<Description>Contains extended application-level utilities that can be used in IGLib applications.</Description>
 		<RepositoryUrl>https://github.com/ajgorhoe/IGLib.modules.IGLibApps/</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageProjectUrl>$(RepositoryUrl)</PackageProjectUrl>
