@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Reflection;
+using System.IO;
 using System.Text;
+using System.Xml.Linq;
 
 namespace IGLib.App.ShellWin
 {
@@ -13,7 +16,9 @@ namespace IGLib.App.ShellWin
             AssemblyName assemblyName = Assembly.GetEntryAssembly()!.GetName();
             string applicationName = assemblyName.Name!;
             string applicationVerson = assemblyName.Version!.ToString();
+            string invokedAs = Path.GetFileName(Environment.GetCommandLineArgs()[0]);
             Console.WriteLine($"\nApplication {applicationName}, v{applicationVerson}...");
+            Console.WriteLine($"Invoked as: {invokedAs}");
 #if true
             Console.WriteLine("Command-line arguments:");
             if (args == null)
@@ -32,10 +37,8 @@ namespace IGLib.App.ShellWin
             }
             Console.WriteLine();
 #endif
-
-
+        
         }
-
 
 
     }
