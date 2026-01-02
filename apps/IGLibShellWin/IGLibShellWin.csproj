@@ -67,16 +67,30 @@
 		To prevent this reference to appear in NuGet package of this project:
 		  PrivateAssets="All"
 		ReferenceOutputAssembly="false" PrivateAssets="All"   -->
-		<ProjectReference Include="..\..\src\0InitModules\InitModulesApps\InitModulesApps.csproj" 
-						  ReferenceOutputAssembly="false" PrivateAssets="All" />
+		<ProjectReference Include="..\..\src\0InitModules\InitModulesApps\InitModulesApps.csproj" ReferenceOutputAssembly="false" PrivateAssets="All" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\..\..\IGLibCore\src\IGLib.Core\IGLib.Core.csproj" />
+		<ProjectReference Include="..\..\..\IGLibCore\src\IGLib.CoreExtended\IGLib.CoreExtended.csproj" />
+		<ProjectReference Include="..\..\..\IGLibCore\src\IGLib.Numerics\IGLib.Numerics.csproj" />
+		<ProjectReference Include="..\..\..\IGLibCore\src\IGLib.WinForms\IGLib.WinForms.csproj" />
+		
+		<ProjectReference Include="..\..\..\IGLibScripting\src\IGLib.Scripting\IGLib.Scripting.csproj" />
+		<ProjectReference Include="..\..\..\IGLibGraphics3D\src\IGLib.Graphics3D\IGLib.Graphics3D.csproj" />
+		<!--
+		Not compatible with .NET 4.8:
+		<ProjectReference Include="..\..\..\IGLibScriptingCs\src\IGLib.ScriptingCs\IGLib.ScriptingCs.csproj" />
+		-->
+		
+	</ItemGroup>
+
+	<ItemGroup>
+		<!--
 		<PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.0" />
-		<!--
-		-->
 		<PackageReference Include="System.Text.Json" Version="10.0.0" />
+		-->
 	</ItemGroup>
 
 
