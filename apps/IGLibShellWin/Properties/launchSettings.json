@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "0DefaultTestProfile": {
+      "commandName": "Project",
+      "commandLineArgs": "Interactive TestCommand arg1 arg2 arg3 arg4 arg5 "
+    }
+  }
+}
