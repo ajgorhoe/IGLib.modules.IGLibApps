@@ -80,10 +80,5 @@
 	  <ProjectReference Include="..\IGLib.Numerics\IGLib.Numerics.csproj" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="Dependencies\" />
-	</ItemGroup>
-
-
 
 </Project>
