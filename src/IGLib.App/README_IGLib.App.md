@@ -1,5 +1,5 @@
 
-# Project `IGLib.App`
+# Library `IGLib.App`
 
 See also: [repository's README.md](../../README.md) ([on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/README.md)), [this document on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/src/IGLib.App/README_IGLib.App.md).
 
