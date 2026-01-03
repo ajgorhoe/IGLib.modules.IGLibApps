@@ -1,7 +1,7 @@
 
 # Initialization Project `InitModulesApps`
 
-See also [repository's README.md](../../README.md) ([on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/README.md)) and [this file on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/src/0InitModules/InitModulesApps/README_InitModulesApps.md).
+See also [repository's README.md](../../../README.md) ([on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/README.md)) and [this file on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/src/0InitModules/InitModulesApps/README_InitModulesApps.md).
 
 ## About `InitModulesApps`
 
