@@ -1,9 +1,16 @@
 
 # IGLib.modules.IGLibApps
 
-Applications based onn [IGLib](https://github.com/ajgorhoe/IGLib.modules.IGLibCore/blob/main/README.md).
+Applications based on the new [IGLib (the Investigative Generic Library)](https://github.com/ajgorhoe/IGLib.modules.IGLibCore/blob/main/README.md).
 
 Majority of the code for this repository is still in the *[private sandbox repository](https://github.com/ajgorhoe/IGLib.modules.IGLibSandbox)*, and will be moved here later.
+
+## Projects
+
+* [src/IGLib.App](./src/IGLib.App/) ([]())
+* 
+* 
+*
 
 ## License
 
