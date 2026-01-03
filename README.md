@@ -7,8 +7,8 @@ Majority of the code for this repository is still in the *[private sandbox repos
 
 ## Projects
 
-* [src/IGLib.App](./src/IGLib.App/) ([]())
-* 
+* [src/IGLib.App](./src/IGLib.App/README_IGLib.App.md) ([directory](./src/IGLib.App/); [readme on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/src/IGLib.App/README_IGLib.App.md))
+* [src/IGLib.AppExtended](./src/IGLib.AppExtended/README_IGLib.AppExtended.md) ([directory](./src/IGLib.AppExtended/); [readme on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/src/IGLib.AppExtended/IGLib.AppExtended.csproj))
 * 
 *
 
