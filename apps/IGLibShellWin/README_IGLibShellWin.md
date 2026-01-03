@@ -1,7 +1,7 @@
 
 # Application `IGLibShellWin`
 
-See also [repository's README.md](../../README.md) ([on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/README.md)) and [this file on GitHub]().
+See also [repository's README.md](../../README.md) ([on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/README.md)) and [this file on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/apps/IGLibShellWin/README_IGLibShellWin.md).
 
 ## About `IGLibShellWin`
 

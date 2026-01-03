@@ -1,7 +1,7 @@
 
 # Application `IGLibShellWinExt`
 
-See also [repository's README.md](../../README.md) ([on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/README.md)) and [this file on GitHub]().
+See also [repository's README.md](../../README.md) ([on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/README.md)) and [this file on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/apps/IGLibShellWinExt/README_IGLibShellWinExt.md).
 
 ## About `IGLibShellWinExt`
 
@@ -9,5 +9,3 @@ This will be a **command-line application** where various demonstrations and uti
 
 
 
-
-\
