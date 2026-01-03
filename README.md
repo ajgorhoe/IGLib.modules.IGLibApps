@@ -9,8 +9,8 @@ Majority of the code for this repository is still in the *[private sandbox repos
 
 * [src/IGLib.App](./src/IGLib.App/README_IGLib.App.md) ([readme on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/src/IGLib.App/README_IGLib.App.md))
 * [src/IGLib.AppExtended](./src/IGLib.AppExtended/README_IGLib.AppExtended.md) ([readme on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/src/IGLib.AppExtended/README_IGLib.AppExtended.md))
-* 
-*
+* [apps/IGLibShellWin](./apps/IGLibShellWin/README_IGLibShellWin.md)
+* [apps/IGLibShellWinExt](./apps/IGLibShellWinExt/README_IGLibShellWinExt.md)
 
 ## License
 
