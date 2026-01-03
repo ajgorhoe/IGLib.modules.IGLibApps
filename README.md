@@ -11,6 +11,8 @@ Majority of the code for this repository is still in the *[private sandbox repos
 * [src/IGLib.AppExtended](./src/IGLib.AppExtended/README_IGLib.AppExtended.md) ([readme on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/src/IGLib.AppExtended/README_IGLib.AppExtended.md))
 * [apps/IGLibShellWin](./apps/IGLibShellWin/README_IGLibShellWin.md) ([readme on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/apps/IGLibShellWin/README_IGLibShellWin.md))
 * [apps/IGLibShellWinExt](./apps/IGLibShellWinExt/README_IGLibShellWinExt.md) ([readme on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/apps/IGLibShellWinExt/README_IGLibShellWinExt.md))
+* [src/0InitModules/InitModulesApps](./src/0InitModules/InitModulesApps/README_InitModulesApps.md) ([readme on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/src/0InitModules/InitModulesApps/README_InitModulesApps.md))
+* [src/0InitModules/InitModulesApps](./src/0InitModules/InitModulesApps/README_InitModulesApps.md) ([readme on GitHub](https://github.com/ajgorhoe/IGLib.modules.IGLibApps/blob/main/src/0InitModules/InitModulesApps/README_InitModulesApps.md))
 
 ## License
 
