@@ -1,5 +1,5 @@
 
-# IGLib.modules.IGLibApps
+# Repository `IGLib.modules.IGLibApps`
 
 Applications based on the new [IGLib (the Investigative Generic Library)](https://github.com/ajgorhoe/IGLib.modules.IGLibCore/blob/main/README.md).
 
